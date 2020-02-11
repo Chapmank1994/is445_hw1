@@ -1,0 +1,73 @@
+/*Write your CSS in here*/
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);
+
+/*What we are selecting*/
+h1 {
+  font-weight: 200;
+  font-size: 70px;
+
+    /*how to style it. Color ends with ":", and Choice ";"*/ 
+  text-transform: uppercase;
+  border-top: 5px solid;  
+  /* If you don't specify it uses whats already there. */
+  
+  /*You have to connect html and css files*/
+}
+body {
+  background-color: #f69680;
+  color:#2E1263;
+  
+  font-family: "Source Code Pro";
+ 
+  /* changes fonts-- You can pull font from selected imports. Font-Weight is thinnes */
+  font-weight: 200;
+}   
+/* Modify everything within the body.  #F=(Hex) Choose specific color*/
+
+img {height: 500px;
+    border-radius: 50%;
+}
+/* Images height */
+
+#container  {
+  display: flex;
+  /* Centers content  Vert and Hori*/
+  
+  flex-direction: column;
+
+
+  align-items: center;
+  justify-content: center;
+  
+  height: 100vh;
+/* How much space to use */
+}
+button {
+  margin: 30px auto 0;
+  padding: 20px 25px;
+  
+  /* spacing inside button and between other elements  */
+  
+  background-color: #f69680;
+  color: #2E1263;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #2E1263;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 4px;
+  outline: none;
+
+}
+button:hover {
+/* Modifing look when mouse hovers over.COLOR: refers to font.
+  Rule of thumb is to invert them */
+
+  transition: 0.3s;
+  background-color: #2E1263;
+  color: #f69680;
+  text-decoration: underline;
+
+}
+p {font-size: 20px;}
+/* adjust paragraph */
