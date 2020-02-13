@@ -7,7 +7,8 @@ var pics = [
 	"kitty_laptop.jpg",
 	"kitty_door.jpg",
 	"kitty_sink.jpg",
-	"kitty_wall.jpg"
+  "kitty_wall.jpg",
+  "download.jpg"
 ]
 
 var btn = document.querySelector("button");
