@@ -18,7 +18,7 @@ var counter = 1;
 
 // looks for first button. Makes the fist button in finds the name variable.
 btn.addEventListener("click", function(){
-  if(counter=== 6){
+  if(counter=== 7){
     counter=0
 // if the counter(which adds 1) gets to 6(===6) /{go back to counter=0}
 
