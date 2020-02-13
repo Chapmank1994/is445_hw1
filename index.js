@@ -9,6 +9,7 @@ var pics = [
 	"kitty_sink.jpg",
   "kitty_wall.jpg",
   "download.jpg"
+  "66384059_456323968499865_4624244159203508224_n(1).jpg"
 ]
 
 var btn = document.querySelector("button");
@@ -18,7 +19,7 @@ var counter = 1;
 
 // looks for first button. Makes the fist button in finds the name variable.
 btn.addEventListener("click", function(){
-  if(counter=== 7){
+  if(counter=== 8){
     counter=0
 // if the counter(which adds 1) gets to 6(===6) /{go back to counter=0}
 
